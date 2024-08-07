@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(layout="wide")  # Set wide layout
 st.title('Dashboard Data Oplib')
 
-FOLDER_PATH = "Data"
+FOLDER_PATH = "data"
 
 @st.cache_data
 def load_data(file):

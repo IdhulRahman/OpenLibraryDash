@@ -52,7 +52,7 @@ def show_home_page():
         """)
 
     with col2:
-        st.image(Image.open("Images\Library.jpg"), caption="Perpustakaan Kami", use_column_width=True)
+        st.image("Library.jpg", caption="OpenLibraryDash", use_column_width=True)
 
     st.markdown("---")
 
