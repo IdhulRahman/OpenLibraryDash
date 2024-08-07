@@ -5,3 +5,4 @@ plotly
 datetime
 python-dotenv
 openai
+pillow
