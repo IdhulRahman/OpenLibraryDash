@@ -3,7 +3,7 @@ from cnf.config import Config
 
 system_prompt = Config.SYSTEM_PROMPT
 
-def chat(user_prompt, model, max_tokens=200, temp=0.7):
+def chat(user_prompt, model, max_tokens=500, temp=0.7):
     client = OpenAI()
 
     completion = client.chat.completions.create(
