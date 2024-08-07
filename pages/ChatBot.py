@@ -21,7 +21,7 @@ with st.sidebar:
     temperature = st.number_input('Temperature', value=0.7, min_value=0.1, max_value=1.0, step=0.1,
                                             help="The temperature setting to be used when generating output from the model.")
     
-    max_token_length = st.number_input('Max Token Length', value=1000, min_value=200, max_value=1000, step=100, 
+    max_token_length = st.number_input('Max Token Length', value=150, min_value=100, max_value=200, step=25, 
                                             help="Maximum number of tokens to be used when generating output.")
     
 
